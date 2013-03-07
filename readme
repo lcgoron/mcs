@@ -1,0 +1,18 @@
+
+structure of repository:
+
+ * cpp/
+ * html/
+ * m/
+ * other/
+    > command/
+    > config/
+    > howto/
+    > readme/
+    > url/
+ * py/
+ * sh/
+ * tex/
+ * vhdl
+ * xml/
+
