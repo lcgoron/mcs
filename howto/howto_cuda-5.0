@@ -1,3 +1,20 @@
 
-.
+sh cuda_5.0.35_linux_64_ubuntu11.10-1.run   -help
+sh cuda_5.0.35_linux_64_ubuntu11.10-1.run   -uninstall
+
+sudo rm -rf   /usr/local/cuda-5.0/   ~/NVIDIA_CUDA-5.0_Samples/
+
+sudo apt-get --purge remove nvidia*
+cat /etc/modprobe.d/blacklist-nouveau.conf
+sudo update-initramfs -u
+sudo apt-get update
+sudo apt-get install build-essential
+sudo apt-get install freeglut3-dev libxi-dev libxmu-dev
+sudo apt-get install mpi-default-dev
+sudo service lightdm stop
+
+Alt + Ctrl + F2
+
+sudo sh cuda_5.0.35_linux_64_ubuntu11.10-1.run
+sudo reboot
 
