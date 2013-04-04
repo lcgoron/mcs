@@ -1,0 +1,44 @@
+
+[ui]
+username = Lucian Cosmin Goron <lucian.goron@gmail.com>
+verbose  = True
+editor   = vim
+
+[paths]
+# Here are your username and password! #
+default = https://user:pass@bitbucket.org/lcgoron/repo
+# user -- username
+# pass -- password
+# repo -- repository
+
+#--------------------------------------------------#
+
+[extensions]
+color =
+
+[color]
+# valid modes are: ansi, auto, off, win32
+mode = auto
+
+[color]
+status.modified = magenta bold
+status.added    = green bold
+status.removed  = red bold
+status.deleted  = cyan bold
+status.unknown  = blue bold
+status.ignored  = black bold
+
+qseries.applied   = blue bold underline
+qseries.unapplied = black bold
+qseries.missing   = red bold
+
+diff.diffline           = bold
+diff.extended           = cyan bold
+diff.file_a             = red bold
+diff.file_b             = green bold
+diff.hunk               = magenta
+diff.deleted            = red
+diff.inserted           = green
+diff.changed            = white
+diff.trailingwhitespace = bold red_background
+
